@@ -1,7 +1,58 @@
 <!DOCTYPE html>
-<html>
-<body>
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page Layout 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body class="bg-dark">
+<!-- Nav Bar Example -->
+    <nav class="navbar navbar-light bg-light">
+      <div class="container">
+          <a class="navbar-brand" href="#">A Rock Band</a>
+          <a href="#">PT Unfished Profile</a>
+      </div>
+    </nav>
+    <!-- Main Container -->
+    <div class="container mb-4 bg-light pt-1 pb-2 mt-2">
+      <!-- Carousel -->
+        <div id="carouselExampleSlidesOnly" class="carousel slide mt-4 mb-4" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/image1.jpg" class="d-block w-100" alt="Singer">
+              </div>
+              <div class="carousel-item">
+                <img src="images/image2.jpg" class="d-block w-100" alt="Rock crowd 1">
+              </div>
+              <div class="carousel-item">
+                <img src="images/image3.jpg" class="d-block w-100" alt="Rock Crowd 2">
+              </div>
+            </div>
+        </div>
+        <!-- Content row -->
+        <div class="row mt-4 mb-4">
+            <sidebar class="col-md-4">
+              <!-- Tour Column -->
+                <h3>Tour</h3>
+                <ul>
+                    <li>Leicester 22/06/21</li>
+                    <li>Leeds 23/06/21</li>
+                    <li>Manchester 25/06/21</li>
+                </ul>
+              </sidebar>
+            <div class="col-md-8">
+              <!-- Video Embed -->
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/qM0zINtulhM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+      </div>
+    <!-- Footer -->
+    <footer class="footer bg-light p-4" >
+        <div class="container">
+          <span> <span>&#169;</span> 2021</span>
+        </div>
+    </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
